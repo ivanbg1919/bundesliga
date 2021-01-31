@@ -66,9 +66,6 @@ h2,
   .list-group {
     margin-bottom: 5px;
   }
-}
-
-@media screen and (max-width: 306px) {
   table {
     font-size: 0.644rem;
   }
