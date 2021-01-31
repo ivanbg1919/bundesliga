@@ -9,7 +9,6 @@ body {
 h2,
 .h2 {
   font-size: calc(0.8rem + 0.9vw);
-  text-transform: uppercase;
 }
 
 .selector-for-some-widget {
@@ -62,11 +61,8 @@ h2,
   background-color: #ff8888 !important;
 }
 
-@media screen and (max-width: 1000px) {
-  .list-group {
-    margin-bottom: 5px;
-  }
-  table {
-    font-size: 0.644rem;
+@media screen and (max-width: 991px) {
+  .banner-first {
+    display: none;
   }
 }
