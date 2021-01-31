@@ -80,6 +80,12 @@ h2,
   }
 }
 
+@media screen and (max-width: 300px) {
+  td {
+    font-size: 6px;
+  }
+}
+
 @media screen and (max-width: 250px) {
   td {
     font-size: 6px;
