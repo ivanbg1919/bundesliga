@@ -73,3 +73,15 @@ h2,
     display: none;
   }
 }
+
+@media screen and (max-width: 500px) {
+  td {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 250px) {
+  td {
+    font-size: 6px;
+  }
+}
