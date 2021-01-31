@@ -6,6 +6,12 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
+h2,
+.h2 {
+  font-size: calc(0.8rem + 0.9vw);
+  text-transform: uppercase;
+}
+
 .selector-for-some-widget {
   box-sizing: content-box;
 }
@@ -46,4 +52,24 @@ body {
 
 .margin-banner {
   margin-bottom: 5px;
+}
+
+.relegation-color {
+  background-color: #f85050 !important;
+}
+
+.relegation-color-2 {
+  background-color: #ff8888 !important;
+}
+
+@media screen and (max-width: 1000px) {
+  td {
+    font-size: 0.8rem;
+  }
+  .list-group {
+    margin-bottom: 5px;
+  }
+  .img-fluid {
+    display: none;
+  }
 }
