@@ -63,31 +63,13 @@ h2,
 }
 
 @media screen and (max-width: 1000px) {
-  td {
-    font-size: 0.9rem;
-  }
   .list-group {
     margin-bottom: 5px;
   }
-  .img-fluid {
-    display: none;
-  }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 200px) {
   td {
-    font-size: 0.8rem;
-  }
-}
-
-@media screen and (max-width: 300px) {
-  td {
-    font-size: 6px;
-  }
-}
-
-@media screen and (max-width: 250px) {
-  td {
-    font-size: 6px;
+    font-size: 0.3rem;
   }
 }
