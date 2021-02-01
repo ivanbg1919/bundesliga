@@ -29,6 +29,16 @@ h2,
   background-color: #0d6efd !important;
 }
 
+.standings-bg {
+  background-color: #881515;
+  color: white;
+}
+
+.standings-bg:hover {
+  background-color: #a02626;
+  color: white;
+}
+
 .class_padding {
   padding-bottom: 5px;
   text-align: center;
