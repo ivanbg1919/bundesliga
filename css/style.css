@@ -34,7 +34,8 @@ h2,
   color: white;
 }
 
-.standings-bg:hover {
+.standings-bg:hover,
+.standings-bg:active {
   background-color: #a02626;
   color: white;
 }

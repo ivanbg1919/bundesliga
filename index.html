@@ -8,14 +8,174 @@
     <title>Germany Bundesliga</title>
 </head>
 <body>
-    <div class="jumbotron">        
+    <div class="jumbotron"> <!-- HEADER -->       
         <h1 class="display-6">Germany Bundesliga 20/21</h1>                  
-    </div>
+    </div> <!-- END OF HEADER -->
+
+            <div class="col-md-12"> <!-- for modal -->                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Germany Bundesliga - Standing</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="table-responsive-sm"> <!-- TABELA -->
+                                    <table class="table table-sm">
+                                        <thead class="table-dark">
+                                          <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">TEAM</th>
+                                            <th scope="col">MP</th>
+                                            <th scope="col" style="padding-left: 20px;">G</th> 
+                                            <th scope="col">PTS</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <th class="bg-success text-center" scope="row">1</th>
+                                            <td>Bayern Munich</td>
+                                            <td>19</td>
+                                            <td>57:26</td>
+                                            <td>45</td>
+                                          </tr>
+                                          <tr>
+                                            <th class="bg-success text-center" scope="row">2</th>
+                                            <td>EB Leipzig</td>
+                                            <td>19</td>
+                                            <td>32:19</td>
+                                            <td>38</td>
+                                          </tr>
+                                          <tr>
+                                            <th class="bg-success text-center" scope="row">3</th>
+                                            <td>Wolfsburg</td>
+                                            <td>19</td>
+                                            <td>30:19</td>
+                                            <td>35</td>
+                                          </tr>
+                                          <tr>
+                                            <th class="bg-success text-center" scope="row">4</th>
+                                            <td>Eintracht Frankfurt</td>
+                                            <td>19</td>
+                                            <td>38:28</td>
+                                            <td>33</td>
+                                          </tr>
+                                          <tr>
+                                            <th class="bg-danger text-center" scope="row">5</th>
+                                            <td>Bayer Leverkusen</td>
+                                            <td>19</td>
+                                            <td>32:19</td>
+                                            <td>32</td>
+                                          </tr>
+                                          <tr>
+                                            <th class="bg-warning text-center" scope="row">6</th>
+                                            <td>Dortmund</td>
+                                            <td>19</td>
+                                            <td>38:27</td>
+                                            <td>32</td>
+                                          </tr>
+                                          <tr>
+                                            <th class="text-center" scope="row">7</th>
+                                            <td>B. Monchengladbach</td>
+                                            <td>19</td>
+                                            <td>36:29</td>
+                                            <td>32</td>
+                                          </tr>
+                                          <tr>
+                                            <th class="text-center" scope="row">8</th>
+                                            <td>Union Berlin</td>
+                                            <td>19</td>
+                                            <td>34:24</td>
+                                            <td>29</td>
+                                          </tr>
+                                          <tr>
+                                            <th class="text-center" scope="row">9</th>
+                                            <td>Freiburg</td>
+                                            <td>19</td>
+                                            <td>33:32</td>
+                                            <td>27</td>
+                                          </tr>
+                                          <tr>
+                                            <th class="text-center" scope="row">10</th>
+                                            <td>Stuttgart</td>
+                                            <td>19</td>
+                                            <td>35:29</td>
+                                            <td>25</td>
+                                          </tr>
+                                          <tr>
+                                            <th class="text-center" scope="row">11</th>
+                                            <td>Werder Bremen</td>
+                                            <td>19</td>
+                                            <td>24:27</td>
+                                            <td>22</td>
+                                          </tr>
+                                          <tr>
+                                            <th class="text-center" scope="row">12</th>
+                                            <td>Hoffenheim</td>
+                                            <td>19</td>
+                                            <td>29:34</td>
+                                            <td>22</td>
+                                          </tr>
+                                          <tr>
+                                            <th class="text-center" scope="row">13</th>
+                                            <td>Augsburg</td>
+                                            <td>19</td>
+                                            <td>20:30</td>
+                                            <td>22</td>
+                                          </tr>
+                                          <tr>
+                                            <th class="text-center" scope="row">14</th>
+                                            <td>FC Koln</td>
+                                            <td>19</td>
+                                            <td>18:32</td>
+                                            <td>18</td>
+                                          </tr>
+                                          <tr>
+                                            <th class="text-center" scope="row">15</th>
+                                            <td>Hertha Berlin</td>
+                                            <td>19</td>
+                                            <td>25:35</td>
+                                            <td>17</td>
+                                          </tr>
+                                          <tr>
+                                            <th class="relegation-color text-center" scope="row">16</th>
+                                            <td>Arminia Bielefeld</td>
+                                            <td>19</td>
+                                            <td>15:32</td>
+                                            <td>17</td>
+                                          </tr>
+                                          <tr>
+                                            <th class="relegation-color-2 text-center" scope="row">17</th>
+                                            <td>Mainz</td>
+                                            <td>19</td>
+                                            <td>18:40</td>
+                                            <td>10</td>
+                                          </tr>
+                                          <tr>
+                                            <th class="relegation-color-2 text-center" scope="row">18</th>
+                                            <td>Schalke</td>
+                                            <td>19</td>
+                                            <td>15:49</td>
+                                            <td>8</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>              
+                                </div>   <!-- end tables for standings -->
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>                        
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- End of Modal -->
+            </div>   <!-- End of For Modal -->                
     <div class="container-xl">                     
         <div class="row">          
           <div class="col-md-3">  
             <div class="list-group">
-                <a class="list-group-item list-group-item-action standings-bg mb-1" href="standings.html">Bundesliga Standings</a>            
+                <a class="list-group-item list-group-item-action standings-bg mb-1" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Bundesliga Standings</a>            
             </div>    
             <div class="list-group">               
                <a class="list-group-item list-group-item-action active" href="#">Bundesliga</a>              
@@ -202,7 +362,8 @@
         <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> by Ivan R.</p>
     </div>    
 
-
+     
+    
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>    
     <script src="js/bootstrap.js"></script>
 </body>
