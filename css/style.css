@@ -30,7 +30,7 @@ h2,
 }
 
 .standings-bg {
-  background-color: #881515;
+  background-color: #d10214;
   color: white;
 }
 
@@ -43,6 +43,16 @@ h2,
 .class_padding {
   padding-bottom: 5px;
   text-align: center;
+}
+
+.link-title {
+  color: #212529;
+}
+
+.link-title:hover,
+.link-title:active {
+  color: #212529;
+  text-decoration: none;
 }
 
 .footer {
@@ -58,4 +68,8 @@ h2,
 
 .relegation-color-2 {
   background-color: #ff8888 !important;
+}
+
+.card-text {
+  text-align: justify;
 }
