@@ -173,14 +173,15 @@
         <div class="row">          
           <div class="col-md-3">  
             <div class="list-group">
-                <a class="list-group-item list-group-item-action standings-bg mb-2" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Germany Bundesliga - Standings</a>            
-            </div>    
-            <div class="list-group">               
-               <a class="list-group-item list-group-item-action active" href="#">Germany Bundesliga</a>                             
-               <a class="list-group-item list-group-item-action" href="#">Netherlands Eredivisie</a>
-               <a class="list-group-item list-group-item-action" href="#">Switzerland Super League</a>
-               <a class="list-group-item list-group-item-action" href="#">Denmark Superliga</a>                                                      
-            </div> 
+                <a class="list-group-item list-group-item-action bg-primary mb-1" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Germany Bundesliga - Standings</a>            
+            </div>
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Germany Bundesliga</a>
+                <a class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Netherlands Eredivisie</a>
+                <a class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Switzerland Super League</a>
+                <a class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Denmark Superliga</a>
+              </div>
+
             <!-- LIGA NEWS -->  
             <div class="card my-2">
                 <img class="card-image-top img-fluid" src="img/bundesliga-news.png" alt="image for news">
@@ -196,178 +197,186 @@
             <!-- END OF LIGA NEWS -->
           </div>
           <div class="col-md-6"> <!--- MIDDLE COLUMN -->
-          <!-- TABELA -->                                  
-          <div class="table-responsive-sm">
-            <table class="table table-sm"> <!-- ako treba ubaci (table-sm) -->
-                <thead class="table-dark">                    
-                  <tr>
-                    <th scope="col">ROUND 20</th>
-                    <th scope="col"></th>
-                    <th scope="col"></th>
-                    <th scope="col"></th> 
-                    <th scope="col"></th>
-                  </tr>
-            
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">05.02.</th>
-                    <td>20:30</td>
-                    <td>Hertha Berlin</td>
-                    <td>:</td>
-                    <td>Bayern Munich</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">06.02.</th>
-                    <td>15:30</td>
-                    <td>Augsburg</td>
-                    <td>:</td>
-                    <td>Wolfsburg</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">06.02.</th>
-                    <td>15:30</td>
-                    <td>Bayer Leverkusen</td>
-                    <td>:</td>
-                    <td>Stuttgart</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">06.02.</th>
-                    <td>15:30</td>
-                    <td>Freiburg</td>
-                    <td>:</td>
-                    <td>Dortmund</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">06.02.</th>
-                    <td>15:30</td>
-                    <td>Mainz</td>
-                    <td>:</td>
-                    <td>Union Berlin</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">06.02.</th>
-                    <td>15:30</td>
-                    <td>Schalke</td>
-                    <td>:</td>
-                    <td>RB Leipzig</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">06.02.</th>
-                    <td>18:30</td>
-                    <td>B. Monchengladbach</td>
-                    <td>:</td>
-                    <td>FC Koln</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">07.02</th>
-                    <td>15:30</td>
-                    <td>Hoffenheim</td>
-                    <td>:</td>
-                    <td>Eintracht Frankfurt</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">07.02</th>
-                    <td>18:00</td>
-                    <td>Arminia Bielefeld</td>
-                    <td>:</td>
-                    <td>Werder Bremen</td>
-                  </tr>                                                      
-                </tbody>
-              </table>              
-        </div>   <!-- KRAJ TABELE !!!!!!!!!!!!!!!!!!!!!!! -->  
-          <!-- TABELA -->                                  
-          <div class="table-responsive-sm">
-            <table class="table table-sm">
-                <thead class="table-dark">                    
-                  <tr>
-                    <th scope="col">ROUND 19</th>
-                    <th scope="col"></th>
-                    <th scope="col"></th>
-                    <th scope="col"></th> 
-                    <th scope="col"></th>
-                  </tr>
-            
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">29.01.</th>
-                    <td>20:30</td>
-                    <td>Sttutgart</td>
-                    <td>2:0</td>
-                    <td>Mainz</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">30.01.</th>
-                    <td>15:30</td>
-                    <td>Werder Bremen</td>
-                    <td>1:1</td>
-                    <td>Schalke</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">30.01.</th>
-                    <td>15:30</td>
-                    <td>Union Berlin</td>
-                    <td>1:1</td>
-                    <td>B.Monchengladbach</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">30.01.</th>
-                    <td>15:30</td>
-                    <td>Eintracht Frankfurt</td>
-                    <td>3:1</td>
-                    <td>Hertha Berlin</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">30.01.</th>
-                    <td>15:30</td>
-                    <td>Dortmund</td>
-                    <td>3:1</td>
-                    <td>Augsburg</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">30.01.</th>
-                    <td>15:30</td>
-                    <td>Bayern Munich</td>
-                    <td>4:1</td>
-                    <td>Hoffenheim</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">30.01.</th>
-                    <td>18:30</td>
-                    <td>RB Leipzig</td>
-                    <td>1:0</td>
-                    <td>Bayer Leverkusen</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">31.01.</th>
-                    <td>15:30</td>
-                    <td>FC Koln</td>
-                    <td>3:1</td>
-                    <td>Arminia Bielefeld</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">31.01.</th>
-                    <td>18:00</td>
-                    <td>Wolfsburg</td>
-                    <td>3:0</td>
-                    <td>Freiburg</td>
-                  </tr>                                                      
-                </tbody>
-              </table>              
-        </div>   <!-- KRAJ TABELE !!!!!!!!!!!!!!!!!!!!!!! -->
-        </div> <!-- MIDDLE COLUMN --> 
+            <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                    <!-- TABELA -->  
+                    <div class="table-responsive-sm">
+                        <table class="table table-sm"> <!-- ako treba ubaci (table-sm) -->
+                            <thead class="table-dark">                    
+                              <tr>
+                                <th scope="col">ROUND 20</th>
+                                <th scope="col"></th>
+                                <th scope="col"></th>
+                                <th scope="col"></th> 
+                                <th scope="col"></th>
+                              </tr>
+                        
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">05.02.</th>
+                                <td>20:30</td>
+                                <td>Hertha Berlin</td>
+                                <td>:</td>
+                                <td>Bayern Munich</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">06.02.</th>
+                                <td>15:30</td>
+                                <td>Augsburg</td>
+                                <td>:</td>
+                                <td>Wolfsburg</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">06.02.</th>
+                                <td>15:30</td>
+                                <td>Bayer Leverkusen</td>
+                                <td>:</td>
+                                <td>Stuttgart</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">06.02.</th>
+                                <td>15:30</td>
+                                <td>Freiburg</td>
+                                <td>:</td>
+                                <td>Dortmund</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">06.02.</th>
+                                <td>15:30</td>
+                                <td>Mainz</td>
+                                <td>:</td>
+                                <td>Union Berlin</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">06.02.</th>
+                                <td>15:30</td>
+                                <td>Schalke</td>
+                                <td>:</td>
+                                <td>RB Leipzig</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">06.02.</th>
+                                <td>18:30</td>
+                                <td>B. Monchengladbach</td>
+                                <td>:</td>
+                                <td>FC Koln</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">07.02</th>
+                                <td>15:30</td>
+                                <td>Hoffenheim</td>
+                                <td>:</td>
+                                <td>Eintracht Frankfurt</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">07.02</th>
+                                <td>18:00</td>
+                                <td>Arminia Bielefeld</td>
+                                <td>:</td>
+                                <td>Werder Bremen</td>
+                              </tr>                                                      
+                            </tbody>
+                          </table>              
+                    </div>   <!-- KRAJ TABELE !!!!!!!!!!!!!!!!!!!!!!! -->  
+                      <!-- TABELA -->                                  
+                      <div class="table-responsive-sm">
+                        <table class="table table-sm">
+                            <thead class="table-dark">                    
+                              <tr>
+                                <th scope="col">ROUND 19</th>
+                                <th scope="col"></th>
+                                <th scope="col"></th>
+                                <th scope="col"></th> 
+                                <th scope="col"></th>
+                              </tr>
+                        
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">29.01.</th>
+                                <td>20:30</td>
+                                <td>Sttutgart</td>
+                                <td>2:0</td>
+                                <td>Mainz</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">30.01.</th>
+                                <td>15:30</td>
+                                <td>Werder Bremen</td>
+                                <td>1:1</td>
+                                <td>Schalke</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">30.01.</th>
+                                <td>15:30</td>
+                                <td>Union Berlin</td>
+                                <td>1:1</td>
+                                <td>B.Monchengladbach</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">30.01.</th>
+                                <td>15:30</td>
+                                <td>Eintracht Frankfurt</td>
+                                <td>3:1</td>
+                                <td>Hertha Berlin</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">30.01.</th>
+                                <td>15:30</td>
+                                <td>Dortmund</td>
+                                <td>3:1</td>
+                                <td>Augsburg</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">30.01.</th>
+                                <td>15:30</td>
+                                <td>Bayern Munich</td>
+                                <td>4:1</td>
+                                <td>Hoffenheim</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">30.01.</th>
+                                <td>18:30</td>
+                                <td>RB Leipzig</td>
+                                <td>1:0</td>
+                                <td>Bayer Leverkusen</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">31.01.</th>
+                                <td>15:30</td>
+                                <td>FC Koln</td>
+                                <td>3:1</td>
+                                <td>Arminia Bielefeld</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">31.01.</th>
+                                <td>18:00</td>
+                                <td>Wolfsburg</td>
+                                <td>3:0</td>
+                                <td>Freiburg</td>
+                              </tr>                                                      
+                            </tbody>
+                          </table>              
+                    </div>   <!-- KRAJ TABELE !!!!!!!!!!!!!!!!!!!!!!! -->
+                </div>
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">Net</div>
+                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">Swi</div>
+                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">Dan</div>
+              </div>
+          </div> <!-- END OF MIDDLE COLUMN --> 
+                <!-- RIGHT COLUMN -->
         <div class="col-md-3 justify-content-center">  
-            <h5 class="text-center"><a class="link-title" href="https://www.flashscore.com/" target="_blank">Flashscore.com</a></h5>
-            <a href="https://www.flashscore.com/" target="_blank"><img src="img/flashscore.png" alt="flashscore banner" class="img-fluid img-thumbnail"></a>             
-            <h5 class="text-center"><a class="link-title" href="https://www.mozzartbet.com/sr#/betting" target="_blank">Mozzart Bet</a></h5>
-            <a  href="https://www.mozzartbet.com/sr#/betting" target="_blank"><img src="img/mozzart-banner.jpg" alt="mozzart banner" class="img-fluid img-thumbnail"></a>            
+                <h5 class="text-center"><a class="link-title" href="https://www.flashscore.com/" target="_blank">Flashscore.com</a></h5>
+                <a href="https://www.flashscore.com/" target="_blank"><img src="img/flashscore.png" alt="flashscore banner" class="img-fluid img-thumbnail"></a>             
+                <h5 class="text-center"><a class="link-title" href="https://www.mozzartbet.com/sr#/betting" target="_blank">Mozzart Bet</a></h5>
+                <a  href="https://www.mozzartbet.com/sr#/betting" target="_blank"><img src="img/mozzart-banner.jpg" alt="mozzart banner" class="img-fluid img-thumbnail"></a>            
+        </div> <!-- END OF RIGHT COLUMN -->   
+        </div> <!-- end of row -->
+        </div> <!-- end of container -->
+        <div class="container-fluid footer">
+            <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> by Ivan R.</p>
         </div>    
-      </div> <!-- end of row -->
-    </div> <!-- end of container -->
-    <div class="container-fluid footer">
-        <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> by Ivan R.</p>
-    </div>    
 
      
     
