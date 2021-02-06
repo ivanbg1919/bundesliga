@@ -16,7 +16,7 @@ h2,
 }
 
 .row {
-  min-height: calc(100vh - 94px - 56px); /* visina hedera - futera */
+  min-height: calc(100vh - 96px - 56px); /* visina hedera - futera */
 }
 
 .table {
@@ -33,18 +33,6 @@ h2,
   color: white;
 }
 
-/*
-.standings-bg {
-  background-color: #d10214;
-  color: white;
-}
-
-.standings-bg:hover,
-.standings-bg:active {
-  background-color: #a02626;
-  color: white;
-}
-*/
 .class_padding {
   padding-bottom: 5px;
   text-align: center;
