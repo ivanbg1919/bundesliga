@@ -15,6 +15,14 @@ h2,
   color: #fff;
 }
 
+#section-hero {
+  background-image: url("../img/the-ball.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
 .row {
   min-height: calc(100vh - 96px - 56px); /* visina hedera - futera */
 }
