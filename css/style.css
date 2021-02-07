@@ -88,4 +88,7 @@ h2,
   .card {
     display: none;
   }
+  #section-hero {
+    min-height: 50vh;
+  }
 }
