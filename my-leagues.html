@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">                    
+    <title>Love Betting - My Leagues</title>
+    <script defer src="js/fontawesome-all.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>              
+   <!-- NAVBAR -->   
+   <nav class="navbar bg-dark navbar-dark navbar-expand-lg sticky-top"> 
+    <div class="container">
+        <a href="index.html" class="navbar-brand"><i class="fas fa-futbol" aria-hidden="true"></i> Love to Betting</a>
+        <button type="button" class="navbar-toggler navbar-toggler-right" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button> 
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto" id="navScrollspy">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">My Leagues</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link 3</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link 4</a>
+                </li>    
+            </ul>
+        </div>    
+    </div>           
+</nav>
+<!-- end of navbar -->    
+   <!-- HEADER -->  
+   <div class="my-header">           
+        <h1 class="display-6">Betting - GG</h1>              
+   </div><!-- END OF HEADER -->                            
+               <!-- MODAL -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Germany Bundesliga - Standings</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="table-responsive-sm"> <!-- TABELA -->
+                                    <table class="table table-sm"> <!-- ako treba ubaci (table-sm) -->
+                                        <thead class="table-dark">
+                                          <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">TEAM</th>
+                                            <th scope="col">MP</th>
+                                            <th scope="col" style="padding-left: 20px;">G</th> 
+                                            <th scope="col">PTS</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <th class="bg-success text-center" scope="row">1</th>
+                                            <td>Bayern Munich</td>
+                                            <td>19</td>
+                                            <td>57:26</td>
+                                            <td>45</td>
+                                          </tr>
+                                          <tr>
+                                            <th class="bg-success text-center" scope="row">2</th>
+                                            <td>EB Leipzig</td>
+                                            <td>19</td>
+                                            <td>32:19</td>
+                                            <td>38</td>
+                                          </tr>
+                                          <tr>
+                                            <th class="bg-success text-center" scope="row">3</th>
+                                            <td>Wolfsburg</td>
+                                            <td>19</td>
+                                            <td>30:19</td>
+                                            <td>35</td>
+                                          </tr>
+                                          <tr>
+                                            <th class="bg-success text-center" scope="row">4</th>
+                                            <td>Eintracht Frankfurt</td>
+                                            <td>19</td>
+                                            <td>38:28</td>
+                                            <td>33</td>
+                                          </tr>
+                                          <tr>
+                                            <th class="bg-danger text-center" scope="row">5</th>
+                                            <td>Bayer Leverkusen</td>
+                                            <td>19</td>
+                                            <td>32:19</td>
+                                            <td>32</td>
+                                          </tr>
+                                          <tr>
+                                            <th class="bg-warning text-center" scope="row">6</th>
+                                            <td>Dortmund</td>
+                                            <td>19</td>
+                                            <td>38:27</td>
+                                            <td>32</td>
+                                          </tr>
+                                          <tr>
+                                            <th class="text-center" scope="row">7</th>
+                                            <td>B. Monchengladbach</td>
+                                            <td>19</td>
+                                            <td>36:29</td>
+                                            <td>32</td>
+                                          </tr>
+                                          <tr>
+                                            <th class="text-center" scope="row">8</th>
+                                            <td>Union Berlin</td>
+                                            <td>19</td>
+                                            <td>34:24</td>
+                                            <td>29</td>
+                                          </tr>
+                                          <tr>
+                                            <th class="text-center" scope="row">9</th>
+                                            <td>Freiburg</td>
+                                            <td>19</td>
+                                            <td>33:32</td>
+                                            <td>27</td>
+                                          </tr>
+                                          <tr>
+                                            <th class="text-center" scope="row">10</th>
+                                            <td>Stuttgart</td>
+                                            <td>19</td>
+                                            <td>35:29</td>
+                                            <td>25</td>
+                                          </tr>
+                                          <tr>
+                                            <th class="text-center" scope="row">11</th>
+                                            <td>Werder Bremen</td>
+                                            <td>19</td>
+                                            <td>24:27</td>
+                                            <td>22</td>
+                                          </tr>
+                                          <tr>
+                                            <th class="text-center" scope="row">12</th>
+                                            <td>Hoffenheim</td>
+                                            <td>19</td>
+                                            <td>29:34</td>
+                                            <td>22</td>
+                                          </tr>
+                                          <tr>
+                                            <th class="text-center" scope="row">13</th>
+                                            <td>Augsburg</td>
+                                            <td>19</td>
+                                            <td>20:30</td>
+                                            <td>22</td>
+                                          </tr>
+                                          <tr>
+                                            <th class="text-center" scope="row">14</th>
+                                            <td>FC Koln</td>
+                                            <td>19</td>
+                                            <td>18:32</td>
+                                            <td>18</td>
+                                          </tr>
+                                          <tr>
+                                            <th class="text-center" scope="row">15</th>
+                                            <td>Hertha Berlin</td>
+                                            <td>19</td>
+                                            <td>25:35</td>
+                                            <td>17</td>
+                                          </tr>
+                                          <tr>
+                                            <th class="relegation-color text-center" scope="row">16</th>
+                                            <td>Arminia Bielefeld</td>
+                                            <td>19</td>
+                                            <td>15:32</td>
+                                            <td>17</td>
+                                          </tr>
+                                          <tr>
+                                            <th class="relegation-color-2 text-center" scope="row">17</th>
+                                            <td>Mainz</td>
+                                            <td>19</td>
+                                            <td>18:40</td>
+                                            <td>10</td>
+                                          </tr>
+                                          <tr>
+                                            <th class="relegation-color-2 text-center" scope="row">18</th>
+                                            <td>Schalke</td>
+                                            <td>19</td>
+                                            <td>15:49</td>
+                                            <td>8</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>              
+                                </div>   <!-- end tables for standings -->
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>                        
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <!-- END OF MODAL -->                            
+    <div class="container-xxl">                     
+        <div class="row">          
+          <div class="col-md-3">  
+            <div class="list-group">
+                <a class="list-group-item list-group-item-action bg-danger mb-1" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Bundesliga - Standings</a>            
+            </div>            
+            <!-- NAV-PILLS -->
+            <div class="nav flex-column nav-pills mb-1" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Germany Bundesliga</a>
+                <a class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Netherlands Eredivisie</a>
+                <a class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Switzerland Super League</a>
+                <a class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Denmark Superliga</a>              
+            </div>
+            <!-- NAV-PILLS --> 
+            <!-- LIGA NEWS -->  
+            <div class="card">
+                <img class="card-image-top img-fluid" src="img/bundesliga-news.png" alt="image for news">
+                <div class="card-body">
+                    <h5 class="card-title">Bundesliga News</h5>
+                    <p class="card-text">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </p>
+                </div>    
+            </div>
+           <!-- END OF LIGA NEWS -->           
+          </div>
+          <div class="col-md-6 col"> <!--- MIDDLE COLUMN -->
+            <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                    <!-- TABELA GERMANY prva tabela-->  
+                    <div class="table-responsive-sm">
+                        <table class="table table-sm"> <!-- ako treba ubaci (table-sm) GERMANY -->
+                            <thead class="table-dark">                    
+                              <tr>
+                                <th scope="col">ROUND 20</th>
+                                <th scope="col"></th>
+                                <th scope="col"></th>
+                                <th scope="col"></th> 
+                                <th scope="col"></th>
+                              </tr>                        
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">05.02.</th>
+                                <td>20:30</td>
+                                <td>Hertha Berlin</td>
+                                <td>0:1</td>
+                                <td>Bayern Munich</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">06.02.</th>
+                                <td>15:30</td>
+                                <td>Augsburg</td>
+                                <td>0:2</td>
+                                <td>Wolfsburg</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">06.02.</th>
+                                <td>15:30</td>
+                                <td>Bayer Leverkusen</td>
+                                <td>5:2</td>
+                                <td>Stuttgart</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">06.02.</th>
+                                <td>15:30</td>
+                                <td>Freiburg</td>
+                                <td>2:1</td>
+                                <td>Dortmund</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">06.02.</th>
+                                <td>15:30</td>
+                                <td>Mainz</td>
+                                <td>1:0</td>
+                                <td>Union Berlin</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">06.02.</th>
+                                <td>15:30</td>
+                                <td>Schalke</td>
+                                <td>0:3</td>
+                                <td>RB Leipzig</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">06.02.</th>
+                                <td>18:30</td>
+                                <td>B. Monchengladbach</td>
+                                <td>1:2</td>
+                                <td>FC Koln</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">07.02</th>
+                                <td>15:30</td>
+                                <td>Hoffenheim</td>
+                                <td>:</td>
+                                <td>Eintracht Frankfurt</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">07.02</th>
+                                <td>18:00</td>
+                                <td>Arminia Bielefeld</td>
+                                <td>:</td>
+                                <td>Werder Bremen</td>
+                              </tr>                                                      
+                            </tbody>
+                          </table>              
+                    </div>   <!-- KRAJ TABELE !!!!!!!!!!!!!!!!!!!!!!! -->  
+                      <!-- TABELA GERMANY druga tabela -->                                  
+                      <div class="table-responsive-sm">
+                        <table class="table table-sm">
+                            <thead class="table-dark">                    
+                              <tr>
+                                <th scope="col">ROUND 19</th>
+                                <th scope="col"></th>
+                                <th scope="col"></th>
+                                <th scope="col"></th> 
+                                <th scope="col"></th>
+                              </tr>
+                        
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">29.01.</th>
+                                <td>20:30</td>
+                                <td>Sttutgart</td>
+                                <td>2:0</td>
+                                <td>Mainz</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">30.01.</th>
+                                <td>15:30</td>
+                                <td>Werder Bremen</td>
+                                <td>1:1</td>
+                                <td>Schalke</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">30.01.</th>
+                                <td>15:30</td>
+                                <td>Union Berlin</td>
+                                <td>1:1</td>
+                                <td>B.Monchengladbach</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">30.01.</th>
+                                <td>15:30</td>
+                                <td>Eintracht Frankfurt</td>
+                                <td>3:1</td>
+                                <td>Hertha Berlin</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">30.01.</th>
+                                <td>15:30</td>
+                                <td>Dortmund</td>
+                                <td>3:1</td>
+                                <td>Augsburg</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">30.01.</th>
+                                <td>15:30</td>
+                                <td>Bayern Munich</td>
+                                <td>4:1</td>
+                                <td>Hoffenheim</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">30.01.</th>
+                                <td>18:30</td>
+                                <td>RB Leipzig</td>
+                                <td>1:0</td>
+                                <td>Bayer Leverkusen</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">31.01.</th>
+                                <td>15:30</td>
+                                <td>FC Koln</td>
+                                <td>3:1</td>
+                                <td>Arminia Bielefeld</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">31.01.</th>
+                                <td>18:00</td>
+                                <td>Wolfsburg</td>
+                                <td>3:0</td>
+                                <td>Freiburg</td>
+                              </tr>                                                      
+                            </tbody>
+                          </table>              
+                    </div>   <!-- KRAJ TABELE !!!!!!!!!!!!!!!!!!!!!!! -->
+                </div>
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                    <!-- TABELA NEDERLANDS prva tabela -->  
+                    <div class="table-responsive-sm">
+                        <table class="table table-sm"> <!-- ako treba ubaci (table-sm) -->
+                            <thead class="table-dark">                    
+                              <tr>
+                                <th scope="col">ROUND 21</th>
+                                <th scope="col"></th>
+                                <th scope="col"></th>
+                                <th scope="col"></th> 
+                                <th scope="col"></th>
+                              </tr>
+                        
+                            </thead>
+                            <tbody>                                
+                                <tr>
+                                    <th scope="row">05.02</th>
+                                    <td>20:00</td>
+                                    <td>Sittard</td>
+                                    <td>0:1</td>
+                                    <td>Heracles</td>
+                                </tr>
+                                <tr>                                
+                                <th scope="row">06.02</th>
+                                <td>14:00</td>
+                                <td>FC Emmen</td>
+                                <td>0:1</td>
+                                <td>AZ Alkmaar</td>
+                               </tr>
+                               <tr>
+                                <th scope="row">06.02</th>
+                                <td>14:00</td>
+                                <td>Zwolle</td>
+                                <td>1:1</td>
+                                <td>Waalwijk</td>
+                              </tr>                              
+                              <tr>
+                                <th scope="row">06.02.</th>
+                                <td>16:30</td>
+                                <td>Heerenveen</td>
+                                <td>1:0</td>
+                                <td>Vitesse</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">06.02</th>
+                                <td>16:30</td>
+                                <td>PSV</td>
+                                <td>3:0</td>
+                                <td>Twente</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">07.02</th>
+                                <td>12:15</td>
+                                <td>Ajax</td>
+                                <td>postp</td>
+                                <td>Utrecht</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">07.02</th>
+                                <td>14:30</td>
+                                <td>Groningen</td>
+                                <td>postp</td>
+                                <td>Feyenoord</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">07.02</th>
+                                <td>14:30</td>
+                                <td>Willem II</td>
+                                <td>postp</td>
+                                <td>Den Haag</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">07.02</th>
+                                <td>16:45</td>
+                                <td>Venlo</td>
+                                <td>postp</td>
+                                <td>Sparta Rotterdam</td>
+                              </tr>                                                                                   
+                            </tbody>
+                          </table>              
+                    </div>
+                    <!-- KRAJ TABELE !!!!!!!!!!!!!!!!!!!!!!! --> 
+                </div>
+                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                    <!-- TABELA SWITZERLAND prva tabela -->  
+                    <div class="table-responsive-sm">
+                        <table class="table table-sm"> <!-- ako treba ubaci (table-sm) -->
+                            <thead class="table-dark">                    
+                              <tr>
+                                <th scope="col">ROUND 19</th>
+                                <th scope="col"></th>
+                                <th scope="col"></th>
+                                <th scope="col"></th> 
+                                <th scope="col"></th>
+                              </tr>                        
+                            </thead>
+                            <tbody>
+                              <tr>
+                                    <th scope="row">06.02.</th>
+                                    <td>20:30</td>
+                                    <td>Vaduz</td>
+                                    <td>3:2</td>
+                                    <td>Zurich</td>
+                                  </tr>
+                              <tr>
+                                <th scope="row">07.02.</th>
+                                <td>16:00</td>
+                                <td>Basel</td>
+                                <td>:</td>
+                                <td>Sion</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">07.02.</th>
+                                <td>16:00</td>
+                                <td>Servette</td>
+                                <td>:</td>
+                                <td>Luzern</td>
+                              </tr> 
+                              <tr>
+                                <th scope="row">07.02.</th>
+                                <td>16:00</td>
+                                <td>Young Boys</td>
+                                <td>:</td>
+                                <td>Lausanne</td>
+                              </tr>                                                                                                           
+                            </tbody>
+                          </table>              
+                    </div>
+                    <!-- KRAJ TABELE !!!!!!!!!!!!!!!!!!!!!!! -->
+                    <!-- TABELA SWITZERLAND druga tabela -->  
+                    <div class="table-responsive-sm">
+                        <table class="table table-sm"> <!-- ako treba ubaci (table-sm) -->
+                            <thead class="table-dark">                    
+                              <tr>
+                                <th scope="col">ROUND 18</th>
+                                <th scope="col"></th>
+                                <th scope="col"></th>
+                                <th scope="col"></th> 
+                                <th scope="col"></th>
+                              </tr>                        
+                            </thead>
+                            <tbody>
+                              <tr>
+                                    <th scope="row">04.02.</th>
+                                    <td>20:30</td>
+                                    <td>Lausanne</td>
+                                    <td>1:3</td>
+                                    <td>Basel</td>
+                                  </tr>
+                              <tr>
+                                <th scope="row">04.02.</th>
+                                <td>18:15</td>
+                                <td>Luzern</td>
+                                <td>3:0</td>
+                                <td>Servette</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">03.02.</th>
+                                <td>20:30</td>
+                                <td>Lugano</td>
+                                <td>1:1</td>
+                                <td>Vaduz</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">03.02.</th>
+                                <td>20:30</td>
+                                <td>Sion</td>
+                                <td>3:2</td>
+                                <td>St. Gallen</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">03.02.</th>
+                                <td>18:15</td>
+                                <td>Zurich</td>
+                                <td>1:4</td>
+                                <td>Young Boys</td>
+                              </tr>                                                                              
+                            </tbody>
+                          </table>              
+                    </div>
+                    <!-- KRAJ TABELE !!!!!!!!!!!!!!!!!!!!!!! -->
+                </div>
+                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                    <!-- TABELA DENMARK prva tabela-->  
+                    <div class="table-responsive-sm">
+                        <table class="table table-sm"> <!-- ako treba ubaci (table-sm) -->
+                            <thead class="table-dark">                    
+                              <tr>
+                                <th scope="col">ROUND 14</th>
+                                <th scope="col"></th>
+                                <th scope="col"></th>
+                                <th scope="col"></th> 
+                                <th scope="col"></th>
+                              </tr>
+                        
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">04.02.</th>
+                                    <td>20:00</td>
+                                    <td>Nordsjaelland</td>
+                                    <td>0:1</td> 
+                                    <td>Brondby</td>
+                                  </tr>
+                              <tr>
+                                <th scope="row">04.02.</th>
+                                <td>18:00</td>
+                                <td>Midtjylland</td>
+                                <td>0:2</td>
+                                <td>Sonderjyske</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">03.02.</th>
+                                <td>20:00</td>
+                                <td>Aalborg</td>
+                                <td>2:3</td>
+                                <td>FC Copenhagen</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">03.02.</th>
+                                <td>18:00</td>
+                                <td>Odense</td>
+                                <td>0:1</td>
+                                <td>Lyngby</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">02.02.</th>
+                                <td>20:00</td>
+                                <td>Vejle</td>
+                                <td>0:0</td>
+                                <td>Aarhus</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">02.02.</th>
+                                <td>18:00</td>
+                                <td>Randers FC</td>
+                                <td>3:0</td>
+                                <td>Horsens</td>
+                              </tr>                                                                                                                 
+                            </tbody>
+                          </table>              
+                    </div>
+                    <!-- KRAJ TABELE !!!!!!!!!!!!!!!!!!!!!!! -->
+                </div>
+              </div>
+          </div> <!-- END OF MIDDLE COLUMN --> 
+                <!-- RIGHT COLUMN -->
+            <div class="col-md-3 justify-content-center">              
+                    <h5 class="text-center"><a class="link-title" href="https://www.flashscore.com/" target="_blank">Flashscore.com</a></h5>
+                    <a href="https://www.flashscore.com/" target="_blank"><img src="img/flashscore.png" alt="flashscore banner" class="img-fluid img-thumbnail mb-2"></a>            
+                    <h5 class="text-center"><a class="link-title" href="https://www.mozzartbet.com/sr#/betting" target="_blank">Mozzart Bet</a></h5>
+                    <a  href="https://www.mozzartbet.com/sr#/betting" target="_blank"><img src="img/mozzart-banner.jpg" alt="mozzart banner" class="img-fluid img-thumbnail"></a>                         
+            </div> <!-- END OF RIGHT COLUMN -->   
+          </div> <!-- end of row -->
+        </div> <!-- end of container -->
+        <div class="container-fluid footer">
+            <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> by Ivan R.</p>
+        </div>    
+
+     
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>    
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
