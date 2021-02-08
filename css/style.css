@@ -20,11 +20,7 @@ h2,
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  min-height: 100vh;
-}
-
-.row {
-  min-height: calc(100vh - 96px - 56px); /* visina hedera - futera */
+  min-height: 60vh;
 }
 
 .table {
@@ -89,6 +85,6 @@ h2,
     display: none;
   }
   #section-hero {
-    min-height: 50vh;
+    min-height: 40vh;
   }
 }
